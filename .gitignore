@@ -5,3 +5,5 @@ node_modules
 *.db
 tags
 sandbox
+*development.js
+*_ignore_*
