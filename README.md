@@ -5,11 +5,22 @@ Unofficial Google Mirror API's Quickstart for Node.js (using Express)
 
 This project is closely based off of Google's official ruby quickstart guide, with [documentation here](https://developers.google.com/glass/quickstart/ruby).
 
+
+
+
+
+
 ## Install
 
     git clone https://github.com/alexanderscott/mirror-quickstart-nodejs.git
     cd mirror-quickstart-nodejs
     npm install
+
+## Configure
+      Go to your [Google Developers Console](https://console.developers.google.com/project/ __[[    your app name ]]]___ /apiui/credential)
+      after you create an oauth client id you should see three buttons:
+      edit settings,  download JSON, delete
+      Download your JSON file, put it in this projects' config directory
 
 
 ## Run
@@ -46,3 +57,4 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 [![githalytics.com alpha](https://cruel-carlota.pagodabox.com/1fcc021639bf7d166b63ed9d9ae9d70b "githalytics.com")](http://githalytics.com/alexanderscott/mirror-quickstart-nodejs)
+
