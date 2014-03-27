@@ -1,33 +1,43 @@
 {
-  "name": "mirror-quickstart-nodejs",
-  "keywords": "google glass, glass, nodejs, quickstart",
-  "description": "Google Mirror API's Quickstart for Node.js",
-  "version": "0.2.1",
-  "repository": {
-    "type": "git",
-    "url": "https://bitbucket.org/alexanderscott/mirror-quickstart-nodejs.git"
-  },
-  "private": false,
-  "author": "Alex Ehrnschwender <alex.ehrnschwender@gmail.com> (http://alexehrnschwender.com)",
-  "dependencies": {
-    "express": "~3.4.6",
-    "hbs": "~2.4.0",
-    "request": "~2.27.0",
-    "sqlite3": "~2.x.x",
-    "bcrypt": "~0.7.7",
-    "underscore": "~1.5.2",
-    "async": "~0.2.9",
-    "mirror-api-client": ">= 0.3.6",
-    "node-dev": "~2.1.6"
-  },
-  "devDependencies": {
-    "mocha": "1.8.x"
-  },
-  "engines": {
-    "node": ">= 0.8.0"
-  },
-  "scripts": {
-    "test": "make test",
-    "start": "node-dev app.js"
-  }
+	"name" : "mirror-quickstart-nodejs",
+	"keywords" : "google glass, glass, nodejs, quickstart",
+	"description": "Google Mirror API's Quickstart for Node.js",
+	"version": "0.2.1",
+	"repository" : {
+		"type": "git",
+		"url": "https://github.com/alexanderscott/mirror-quickstart-nodejs"
+	},
+	"private": false,
+	"contributors" : [
+		{
+			"name": "Alex Ehrnschwender ",
+			"email": "alex.ehrnschwender@gmail.com",
+			"url" : "http://alexehrnschwender.com"
+		},{
+			"name": "Andrew Luhring",
+			"email": "andrew.luhring@gmail.com",
+			"url" : "http://www.androo.pro"
+		}
+	],
+	"dependencies" : {
+		"express": "~3.4.6",
+		"hbs": "~2.4.0",
+		"request": "~2.27.0",
+		"sqlite3": "~2.x.x",
+		"bcrypt" : "~0.7.7",
+		"underscore" : "~1.5.2",
+		"async": "~0.2.9",
+		"mirror-api-client": ">= 0.3.6",
+		"node-dev" : "~2.1.6"
+	},
+	"devDependencies": {
+		"mocha": "1.8.x"
+	},
+	"engines": {
+		"node": ">= 0.8.0"
+	},
+	"scripts": {
+		"test" : "make test",
+		"start": "node-dev app.js"
+	}
 }
