@@ -39,7 +39,7 @@ This project is closely based off of Google's official ruby quickstart guide, wi
 
 *  Fork + branch, 
 *  pull request.
-*  dance *(<== optional)*.
+*  dance *(<== only if you want to)*.
 
 
 ## License
