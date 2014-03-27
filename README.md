@@ -17,20 +17,29 @@ This project is closely based off of Google's official ruby quickstart guide, wi
     npm install
 
 ## Configure
-      Go to your [Google Developers Console](https://console.developers.google.com/project/ __[[    your app name ]]]___ /apiui/credential)
-      after you create an oauth client id you should see three buttons:
-      edit settings,  download JSON, delete
-      Download your JSON file, put it in this projects' config directory
+      
+*  Go to your [Google Developers Console](https://console.developers.google.com/project/ __[[    your app name ]]]___ /apiui/credential)
+      
+*  after you create an oauth client id you should see three buttons:
+  *  "edit settings",  
+  *  "download JSON", 
+  *  "delete"
+      
+
+*  Download your JSON file, put it in this projects' config directory
+  *  **If it is not named "client.json" name it "client.json"**
 
 
 ## Run
 
-    node app.js
+    npm start
 
 
 ## Contribute
 
-    Fork + branch, then pull request.
+*  Fork + branch, 
+*  pull request.
+*  dance *(<== optional)*.
 
 
 ## License
