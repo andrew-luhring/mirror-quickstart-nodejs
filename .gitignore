@@ -5,5 +5,6 @@ node_modules
 *.db
 tags
 sandbox
-*development.js
+*client.json
 *_ignore_*
+*~
