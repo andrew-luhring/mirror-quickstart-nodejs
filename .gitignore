@@ -5,7 +5,11 @@ node_modules
 *.db
 tags
 sandbox
-*client.json
+*config/client.json
+*config/client_secrets.json
+config/client_secrets.json
+client_secrets.json
+**client.json
 *_ignore_*
 *~
 *.idea
